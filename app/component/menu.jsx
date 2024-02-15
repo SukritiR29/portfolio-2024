@@ -1,6 +1,6 @@
 "use client"
 
-import React, {useRef} from 'react'
+import React from 'react';
 import { MdArrowDropDown } from "react-icons/md";
 import { MdOutlineOpenInNew } from "react-icons/md";
 
@@ -22,9 +22,9 @@ const Menu = () => {
             <MdArrowDropDown className='flex justify-end ml-20 text-xl text-slate-100' />
         </div>
         <a href="http://resume-sukritir29.vercel.app/">
-        <div className='p-3 m-4 lg:mr-6 rounded-lg border-lime-700 flex gap-16  border gap-10 cursor-pointer hover:bg-gray-900'>
-        <button className='text-xs flex flex-row'>Download Resume</button>
-        <MdOutlineOpenInNew className='justify-end text-xs' />
+        <div className='p-3 m-4 lg:mr-6 rounded-lg border-lime-700 flex gap-20  border gap-10 cursor-pointer hover:bg-gray-900'>
+        <button className='text-xs flex flex-row'>Open Resume</button>
+        <MdOutlineOpenInNew className='justify-end text-xs ml-4' />
 
         </div>
         </a>
