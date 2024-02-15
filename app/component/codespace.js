@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import { FaPlay } from "react-icons/fa";
 
 const Code = () => {
@@ -24,6 +24,22 @@ const Code = () => {
               </a>
             </li>
           </ul>
+          {isOpen && (
+            <div className="fixed inset-0 flex justify-center items-end z-50">
+              <div className="absolute bottom-0 bg-white w-full max-h-80 overflow-y-auto rounded-t-lg shadow-xl">
+                {/* Your project list goes here */}
+                <ul className="p-4">
+                  <li>Project 1</li>
+                  <li>Project 2</li>
+                  <li>Project 3</li>
+                </ul>
+              </div>
+              <div
+                className="fixed inset-0 bg-black opacity-50"
+                onClick={() => setIsOpen(false)}
+              ></div>
+            </div>
+          )}
         </div>
       </div>
 
