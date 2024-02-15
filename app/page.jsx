@@ -7,7 +7,7 @@ const page = () => {
   return (
     <div className='bg-slate-950 h-screen'>
       <div className='pt-7 pb-5 lg:pl-20'>
-      <h1 className='text-2xl font-bold bg-gradient-to-r  from-purple-600 via-yellow-300 to-yellow-500 via-yellow-400  text-transparent bg-clip-text'>SUKRITI RAJORA</h1>
+      <h1 className='text-2xl font-bold bg-gradient-to-r  from-pink-500 via-yellow-300 to-yellow-500 via-yellow-400  text-transparent bg-clip-text'>SUKRITI RAJORA</h1>
       <div className='flex flex-row gap-5 ml-1'>
             <div className='tooltip' data-tip="sukritirajora@gmail.com">
         <a href="mailto:sukritirajora@gmail.com" className="hover:scale-125 transition-transform  flex flex-rows gap-2 justify-center">
