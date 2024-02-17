@@ -28,7 +28,7 @@ const Code = () => {
   const btnRef = React.useRef();
 
   return (
-    <div className="lg:relative lg:flex lg:flex-col lg:w-3/4 w-4/5 border-2 border-slate-900 lg:m-2 ml-2 mt-1 bg-neutral-900 rounded-xl overflow-hidden">
+    <div className="lg:relative lg:flex lg:flex-col lg:w-3/4 w-5/6 border-2 border-slate-900 lg:m-2 ml-2 mt-1 bg-neutral-900 rounded-xl overflow-hidden">
       <div className="navbar bg-slate-950" style={{ height: "1px" }}>
         <div className="flex-1 p-0" style={{ height: "1px" }}>
           <a className="btn btn-ghost text-sm">Sukriti.dev</a>
