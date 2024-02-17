@@ -16,16 +16,13 @@ import {
 } from "@chakra-ui/react";
 
 const Code = () => {
-  // const [isOpen, setIsOpen] = useState(false);
+  
   const aboutRef = useRef(null);
   const experienceRef = useRef(null);
   const skillsRef = useRef(null);
   const doingRef = useRef(null);
   const contactRef = useRef(null);
 
-  // const handleOutsideClick = () => {
-  //   setIsOpen(false);
-  // };
 
   const { isOpen, onOpen, onClose } = useDisclosure();
   const [placement, setPlacement] = React.useState("right");
@@ -41,10 +38,9 @@ const Code = () => {
         <div className="flex-none p-0" style={{ height: "1px" }}>
           <ul
             className="menu menu-horizontal bg-lime-600 rounded-lg p-0 cursor-pointer"
-            //onClick={() => setIsOpen(!isOpen)}
           >
             <li className="text-xs">
-              <button ref={btnRef} colorScheme="teal" onClick={onOpen}>
+              <button ref={btnRef}  onClick={onOpen}>
                 PROJECTS <FaPlay />
               </button>
               <Drawer
@@ -223,7 +219,6 @@ const Code = () => {
               </Drawer>
             </li>
           </ul>
-          {/* {isOpen && <Projects isOpen={isOpen} setIsOpen={setIsOpen} />} */}
         </div>
       </div>
 
