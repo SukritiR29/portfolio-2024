@@ -16,13 +16,11 @@ import {
 } from "@chakra-ui/react";
 
 const Code = () => {
-  
   const aboutRef = useRef(null);
   const experienceRef = useRef(null);
   const skillsRef = useRef(null);
   const doingRef = useRef(null);
   const contactRef = useRef(null);
-
 
   const { isOpen, onOpen, onClose } = useDisclosure();
   const [placement, setPlacement] = React.useState("right");
@@ -36,11 +34,9 @@ const Code = () => {
           <a className="btn btn-ghost text-sm">Sukriti.dev</a>
         </div>
         <div className="flex-none p-0" style={{ height: "1px" }}>
-          <ul
-            className="menu menu-horizontal bg-lime-600 rounded-lg p-0 cursor-pointer"
-          >
+          <ul className="menu menu-horizontal bg-lime-600 rounded-lg p-0 cursor-pointer">
             <li className="text-xs">
-              <button ref={btnRef}  onClick={onOpen}>
+              <button ref={btnRef} onClick={onOpen}>
                 PROJECTS <FaPlay />
               </button>
               <Drawer
@@ -235,7 +231,7 @@ const Code = () => {
             >
               1{" "}
             </span>{" "}
-            // About me
+            {"// About me"}
           </h2>
           <p
             className="text-sm text-justify text-yellow-200"
@@ -316,7 +312,7 @@ const Code = () => {
             >
               9{" "}
             </span>{" "}
-            // Experience
+            {" // Experience "}
           </h2>
           <p
             className="text-sm text-justify text-yellow-200"
@@ -331,9 +327,9 @@ const Code = () => {
             </span>{" "}
             <span className="bg-neutral-800">
               {" "}
-              // SDE Inter -
+              {"// SDE Inter -"}
               <span className="text-pink-500"> Quinbay Technology </span> -
-              Bangalore //
+              {"Bangalore //"}
             </span>
             <br />{" "}
             <span
@@ -343,7 +339,7 @@ const Code = () => {
               11{" "}
             </span>
             Worked with <span className="text-lime-400"> Vue.js </span> on a
-            company's on going project. Created new features. <br />{" "}
+            company&apos;s on going project. Created new features. <br />{" "}
             <span
               className="text-slate-500"
               style={{ letterSpacing: "0.2rem" }}
@@ -381,8 +377,8 @@ const Code = () => {
               15{" "}
             </span>{" "}
             <span className="bg-neutral-800">
-              // SDE Intern - <span className="text-pink-500"> MiniOrange</span>{" "}
-              - Pune //{" "}
+              {"// SDE Intern -"}{" "}
+              <span className="text-pink-500"> MiniOrange</span> {"- Pune //"}{" "}
             </span>
             <br />{" "}
             <span
@@ -447,7 +443,7 @@ const Code = () => {
             >
               22{" "}
             </span>
-            // Tech Stack //
+            {" // Tech Stack //"}
           </h2>
           <p
             className="text-sm text-justify text-yellow-200"
@@ -495,7 +491,7 @@ const Code = () => {
             >
               9{" "}
             </span>{" "}
-            // What I'm Doing
+            {" // What I'm Doing"}
           </h2>
           <p
             className="text-sm text-justify text-yellow-200"
@@ -510,7 +506,7 @@ const Code = () => {
             </span>{" "}
             <span className="bg-neutral-800">
               {" "}
-              <span className="text-pink-500"> // Projects </span>
+              <span className="text-pink-500"> {"// Projects"} </span>
             </span>
             <br />{" "}
             <span
@@ -543,7 +539,7 @@ const Code = () => {
             </span>{" "}
             <span className="bg-neutral-800">
               {" "}
-              <span className="text-pink-500"> // Contrubutions </span>
+              <span className="text-pink-500"> {"// Contrubutions"} </span>
             </span>
             <br />{" "}
             <span
@@ -583,7 +579,7 @@ const Code = () => {
             </span>{" "}
             <span className="bg-neutral-800">
               {" "}
-              <span className="text-pink-500"> // Hackathons </span>
+              <span className="text-pink-500"> {"// Hackathons"} </span>
             </span>
             <br />{" "}
             <span
@@ -621,7 +617,7 @@ const Code = () => {
             >
               22{" "}
             </span>
-            // Get in touch //
+            {" // Get in touch //"}
           </h2>
           <p
             className="text-sm text-justify text-yellow-200"
