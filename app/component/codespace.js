@@ -327,7 +327,7 @@ const Code = () => {
             </span>{" "}
             <span className="bg-neutral-800">
               {" "}
-              {"// SDE Inter -"}
+              {"// SDE Intern -"}
               <span className="text-pink-500"> Quinbay Technology </span> -
               {"Bangalore //"}
             </span>
