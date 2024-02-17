@@ -53,7 +53,7 @@ const Code = () => {
                     <div className=" lg:text-md text-xs font-sans font-justify border border-yellow-500 lg:p-1 rounded-t-lg">
                       <h2 className="hidden lg:block p-1 lg:ml-10 text-yellow-500 lg:flex gap-2 flex">
                         PROJECTS{" "}
-                        <AiOutlineFundProjectionScreen className="mt-1 text-lg" />
+                        <AiOutlineFundProjectionScreen className=" text-lg" />
                       </h2>
                     </div>
                   </DrawerHeader>
