@@ -5,10 +5,10 @@ import { FiFigma, FiGithub, FiLinkedin, FiMail, FiMapPin, FiPhone, FiMenu} from 
 
 const page = () => {
   return (
-    <div className='bg-slate-950 h-screen'>
-      <div className='pt-7 pb-5 lg:pl-20'>
-      <h1 className='text-2xl font-bold bg-gradient-to-r  from-pink-500 via-yellow-300 to-yellow-500 via-yellow-400  text-transparent bg-clip-text'>SUKRITI RAJORA</h1>
-      <div className='flex flex-row gap-5 ml-1'>
+    <div className='bg-slate-950 h-screen lg:flex lg:flex-col lg:p-0 flex flex-col  '>
+      <div className='lg:pt-7 lg:pb-5 lg:pl-20 pt-10 pl-20 '>
+      <h1 className='text-2xl w-fit font-bold bg-gradient-to-r  from-pink-500  to-yellow-500  text-transparent bg-clip-text'>SUKRITI RAJORA</h1>
+      <div className='lg:flex lg:flex-row lg:gap-5 lg:ml-1 lg:mb-0 flex flex-row gap-5 ml-8 mb-2'>
             <div className='tooltip' data-tip="sukritirajora@gmail.com">
         <a href="mailto:sukritirajora@gmail.com" className="hover:scale-125 transition-transform  flex flex-rows gap-2 justify-center">
               <FiMail className='mt-2 text-slate-400 text-md' />
@@ -32,7 +32,7 @@ const page = () => {
         </div>
         
       </div>
-      <Holder />
+      <Holder/>
       
     </div>
   )
