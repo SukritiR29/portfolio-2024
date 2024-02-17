@@ -17,7 +17,7 @@ const Menu = () => {
   };
 
   return (
-    <div className={` lg:w-1/4 lg:m-2 w-4/5 ml-2 lg:border-2 border-slate-900 lg:bg-gradient-to-b from-slate-950  to-indigo-950 rounded-md lg:rounded-xl`}> {/* Adjust height based on isOpen state */}
+    <div className={` lg:w-1/4 lg:m-2 w-5/6 ml-2 lg:border-2 border-slate-900 lg:bg-gradient-to-b from-slate-950  to-indigo-950 rounded-md lg:rounded-xl`}> {/* Adjust height based on isOpen state */}
     <div className='hidden lg:flex p-4 m-2 rounded-lg bg-gradient-to-r  from-pink-500 to-orange-500 flex gap-10' onClick={() => setIsOpen(!isOpen)}>
       <h2 className='text-sm flex flex-row'>Sukriti.dev</h2>
       <MdArrowDropDown className={`flex justify-end ml-20 text-xl text-slate-100 ${isOpen ? 'transform rotate-180' : ''}`} /> {/* Rotate arrow if menu is open */}
