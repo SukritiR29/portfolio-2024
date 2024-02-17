@@ -59,7 +59,7 @@ const Code = () => {
                   </DrawerHeader>
 
                   <DrawerBody className="overflow-auto">
-                    <div className="gap-0 overflow-auto">
+                    <div className="gap-0 overflow-auto text-slate-100">
                       <div className="lg:flex ">
                         <div className="lg:w-1/3 w-3/4 lg:m-6 m-1 mt-4 ml-4 text-md font-sans font-justify border border-yellow-500 lg:p-3 p-1 rounded-xl hover:bg-gray-900">
                           <h2 className="lg:pl-2 pl-3 lg:text-sm text-xs">
