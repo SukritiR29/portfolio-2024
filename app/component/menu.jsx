@@ -30,19 +30,19 @@ const Menu = () => {
             <MdOutlineOpenInNew className='justify-end text-xs lg:ml-4 ml-20 text-slate-100' />
           </div>
         </a>
-        <div className='hidden lg:block p-3 m-4 lg:mr-6 rounded-lg border-slate-700 border gap-10 cursor-pointer hover:bg-gray-900' onClick={() => scrollToSection("about")}>
+        <div className='hidden lg:block p-3 m-4 lg:mr-6 rounded-lg border-slate-700 text-slate-100 lg:text-slate-100 border gap-10 cursor-pointer hover:bg-gray-900' onClick={() => scrollToSection("about")}>
           <button className='text-xs flex flex-row'>About</button>
         </div>
-        <div className='hidden lg:block p-3 m-4 lg:mr-6 rounded-lg border-slate-700 border gap-10 cursor-pointer hover:bg-gray-900' onClick={() => scrollToSection("experience")}>
+        <div className='hidden lg:block p-3 m-4 lg:mr-6 rounded-lg border-slate-700 text-slate-100 lg:text-slate-100 border gap-10 cursor-pointer hover:bg-gray-900' onClick={() => scrollToSection("experience")}>
           <button className='text-xs flex flex-row' >Experience</button>
         </div>
-        <div className='hidden lg:block p-3 m-4 lg:mr-6 rounded-lg border-slate-700 border gap-10 cursor-pointer hover:bg-gray-900' onClick={() => scrollToSection("skills")}>
+        <div className='hidden lg:block p-3 m-4 lg:mr-6 rounded-lg border-slate-700 text-slate-100 lg:text-slate-100 border gap-10 cursor-pointer hover:bg-gray-900' onClick={() => scrollToSection("skills")}>
           <button className='text-xs flex flex-row' >Skills</button>
         </div>
-        <div className='hidden lg:block p-3 m-4 lg:mr-6 rounded-lg border-slate-700 border gap-10 cursor-pointer hover:bg-gray-900' onClick={() => scrollToSection("doing")}>
+        <div className='hidden lg:block p-3 m-4 lg:mr-6 rounded-lg border-slate-700 text-slate-100 lg:text-slate-100 border gap-10 cursor-pointer hover:bg-gray-900' onClick={() => scrollToSection("doing")}>
           <button className='text-xs flex flex-row' >Investing Time In</button>
         </div>
-        <div className='hidden lg:block p-3 m-4 lg:mr-6 rounded-lg border-slate-700 border gap-10 cursor-pointer hover:bg-gray-900' onClick={() => scrollToSection("contact")}>
+        <div className='hidden lg:block p-3 m-4 lg:mr-6 rounded-lg border-slate-700 text-slate-100 lg:text-slate-100 border gap-10 cursor-pointer hover:bg-gray-900' onClick={() => scrollToSection("contact")}>
           <button className='text-xs flex flex-row' >Contact</button>
         </div>
       </div>
