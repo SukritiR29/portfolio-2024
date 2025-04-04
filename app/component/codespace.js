@@ -47,11 +47,11 @@ const Code = () => {
                 className="bg-white"
               >
                 <DrawerOverlay />
-                <DrawerContent className="bg-stone-900">
+                <DrawerContent className="bg-slate-900">
                   <DrawerHeader>
                     {" "}
-                    <div className=" lg:text-md text-xs font-sans font-justify border border-yellow-500 lg:p-1 rounded-t-lg">
-                      <h2 className="hidden lg:block p-1 lg:ml-10 text-yellow-500 lg:flex gap-2 flex">
+                    <div className=" lg:text-md text-xs font-sans font-justify border border-slate-500 lg:p-1 rounded-t-lg">
+                      <h2 className="hidden lg:block p-1 lg:ml-10 text-grey-500 lg:flex gap-2 flex">
                         PROJECTS{" "}
                         <AiOutlineFundProjectionScreen className=" text-lg" />
                       </h2>
@@ -61,7 +61,7 @@ const Code = () => {
                   <DrawerBody className="overflow-auto">
                     <div className="gap-0 overflow-auto text-slate-100">
                       <div className="lg:flex ">
-                        <div className="lg:w-1/3 w-3/4 lg:m-6 m-1 mt-4 ml-4 text-md font-sans font-justify border border-yellow-500 lg:p-3 p-1 rounded-xl hover:bg-gray-900">
+                        <div className="lg:w-1/3 w-3/4 lg:m-6 m-1 mt-4 ml-4 text-md font-sans font-justify border border-yellow-500 lg:p-3 p-1 rounded-xl hover:bg-gray-700">
                           <h2 className="lg:pl-2 pl-3 lg:text-sm text-xs">
                             Curenimal
                           </h2>
@@ -85,7 +85,7 @@ const Code = () => {
                             </a>
                           </div>
                         </div>{" "}
-                        <div className="lg:w-1/3 w-3/4 lg:m-6 m-1 mt-4 ml-4 text-md font-sans font-justify border border-yellow-500 lg:p-3 p-1 rounded-xl hover:bg-gray-900">
+                        <div className="lg:w-1/3 w-3/4 lg:m-6 m-1 mt-4 ml-4 text-md font-sans font-justify border border-yellow-500 lg:p-3 p-1 rounded-xl hover:bg-gray-700">
                           <h2 className="lg:pl-2 pl-3 lg:text-sm text-xs">
                             Around You
                           </h2>
@@ -109,7 +109,7 @@ const Code = () => {
                             </a>
                           </div>
                         </div>{" "}
-                        <div className="lg:w-1/3 w-3/4 lg:m-6 m-1 mt-4 ml-4 text-md font-sans font-justify border border-yellow-500 lg:p-3 p-1 rounded-xl hover:bg-gray-900">
+                        <div className="lg:w-1/3 w-3/4 lg:m-6 m-1 mt-4 ml-4 text-md font-sans font-justify border border-yellow-500 lg:p-3 p-1 rounded-xl hover:bg-gray-700">
                           <h2 className="lg:pl-2 pl-3 lg:text-sm text-xs">
                             Sumedha
                           </h2>
@@ -135,7 +135,7 @@ const Code = () => {
                         </div>{" "}
                       </div>
                       <div className="lg:flex mt-0">
-                        <div className="lg:w-1/3 w-3/4 lg:m-6 m-1 mt-4 ml-4 text-md font-sans font-justify border border-yellow-500 lg:p-3 p-1 rounded-xl hover:bg-gray-900">
+                        <div className="lg:w-1/3 w-3/4 lg:m-6 m-1 mt-4 ml-4 text-md font-sans font-justify border border-yellow-500 lg:p-3 p-1 rounded-xl hover:bg-gray-700">
                           <h2 className="lg:pl-2 pl-3 lg:text-sm text-xs">
                             Wordle
                           </h2>
@@ -159,7 +159,7 @@ const Code = () => {
                             </a>
                           </div>
                         </div>{" "}
-                        <div className="hidden lg:block lg:w-1/3 w-3/4 lg:m-6 m-2 ml-4 text-md font-sans font-justify border border-yellow-500 lg:p-3 p-1 rounded-xl hover:bg-gray-900">
+                        <div className="hidden lg:block lg:w-1/3 w-3/4 lg:m-6 m-2 ml-4 text-md font-sans font-justify border border-yellow-500 lg:p-3 p-1 rounded-xl hover:bg-gray-700">
                           <h2 className="lg:pl-2 pl-3 lg:text-sm text-xs">
                             User Admin
                           </h2>
@@ -183,7 +183,7 @@ const Code = () => {
                             </a>
                           </div>
                         </div>{" "}
-                        <div className="hidden lg:block lg:w-1/3 w-3/4 lg:m-6 m-1 text-md font-sans font-justify border border-yellow-500 lg:p-3 p-1 rounded-xl hover:bg-gray-900">
+                        <div className="hidden lg:block lg:w-1/3 w-3/4 lg:m-6 m-1 text-md font-sans font-justify border border-yellow-500 lg:p-3 p-1 rounded-xl hover:bg-gray-700">
                           <h2 className="lg:pl-2 pl-3 lg:text-sm text-xs">
                             QAre
                           </h2>
