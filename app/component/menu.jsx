@@ -24,7 +24,7 @@ const Menu = () => {
     </div>
     {isOpen && ( 
       <div className='relative flex-col'>
-        <a href="http://resume-sukritir29.vercel.app/">
+        <a href="https://drive.google.com/file/d/1FfONzUljgJHJvHMQAn862zjxGp1KemBL/view?usp=sharing/">
           <div className='lg:p-3 p-3 lg:m-4 lg:mr-6 rounded-lg border-lime-700 flex gap-20 border gap-10 cursor-pointer hover:bg-lime-700 '>
             <button className='text-xs text-slate-100 flex flex-row'>Open Resume</button>
             <MdOutlineOpenInNew className='justify-end text-xs lg:ml-4 ml-20 text-slate-100' />
