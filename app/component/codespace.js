@@ -244,11 +244,15 @@ const Code = () => {
             >
               2{" "}
             </span>
-            A <span className="text-pink-500"> programmer </span> with an ardent
-            passion for{" "}
+            Hey!! I am Sukriti. An
+           
+            {" "}
             <span className="text-lime-500">
-              Web Developing and Data Structures.
-            </span>
+             Automation Engineer
+            </span> {" "} and a {" "}
+            <span className="text-lime-500">
+             Frontend Developer
+            </span> {" "}
             <span
               className="text-slate-500"
               style={{ letterSpacing: "0.5rem" }}
@@ -262,17 +266,16 @@ const Code = () => {
             >
               3{" "}
             </span>{" "}
-            To develop my talents & knowledge and learn more about my subject of
-            study, <br />{" "}
+            with a passion for building efficient, scalable solutions. {" "} 
+               <br />{" "}
             <span
               className="text-slate-500"
               style={{ letterSpacing: "0.5rem" }}
             >
               4{" "}
             </span>{" "}
-            I have worked on a numerous{" "}
-            <span className="text-pink-500"> impactful projects </span>, several{" "}
-            <span className="text-cyan-400"> internships & hackathons. </span>
+            Currently, I work at{" "}
+            <span className="text-pink-500"> Wizehive India, </span>, where I design and implement {" "}  
             <br />{" "}
             <span
               className="text-slate-500"
@@ -280,17 +283,17 @@ const Code = () => {
             >
               5{" "}
             </span>{" "}
-            I continue to fervently learn about relevant topics while actively
-            working and learning <br />{" "}
+            <span className="text-cyan-400">comprehensive Playwright automation frameworks
+             </span> for  <span className="text-pink-500">Bright Funds</span>, 
+             <br />{" "}
             <span
               className="text-slate-500"
               style={{ letterSpacing: "0.5rem" }}
             >
               6{" "}
             </span>{" "}
-            in the field of{" "}
-            <span className="text-lime-500">Full-Stack Development</span> , and
-            its derivatives.
+            enabling seamless regression testing and improving software reliability.
+            
           </p>
         </div>
         <span className="text-slate-500" style={{ letterSpacing: "0.5rem" }}>
@@ -456,10 +459,10 @@ const Code = () => {
             >
               23{" "}
             </span>
-            Javascript, <span className="text-cyan-500">React,</span>{" "}
+            Javascript, <span className="text-cyan-500">Playwright,</span>{" "}
             <span className="text-pink-500">NextJS,</span>{" "}
-            <span className="text-lime-500">Vue,</span>{" "}
-            <span className="">Java,</span>{" "}
+            <span className="text-lime-500">React,</span>{" "}
+            <span className="">JavaScript,</span>{" "}
             <span className="text-cyan-500">TypeScript</span> <br />
             <span
               className="text-slate-500"
@@ -467,10 +470,10 @@ const Code = () => {
             >
               24{" "}
             </span>
-            <span className="text-cyan-500">C++,</span>{" "}
-            <span className="text-lime-500">TailwindCSS,</span>{" "}
-            <span className="">FIgma,</span>{" "}
-            <span className="text-cyan-500">MongoDB,</span>{" "}
+            <span className="text-cyan-500">Postman,</span>{" "}
+            <span className="text-lime-500">K6,</span>{" "}
+            <span className="">Figma,</span>{" "}
+            <span className="text-cyan-500">Vue,</span>{" "}
             <span className="text-pink-500">MySQL,</span>{" "}
             <span className="">HTML</span>
           </p>
@@ -515,7 +518,7 @@ const Code = () => {
             >
               11{" "}
             </span>
-            Consistently working on web projects and internships and deploying{" "}
+            Consistently working on web projects and deploying{" "}
             <br />{" "}
             <span
               className="text-slate-500"
@@ -548,7 +551,7 @@ const Code = () => {
             >
               11{" "}
             </span>
-            Contributing to the community with Google Developers Students CLub{" "}
+            Contributing to the community with Google DSC. Collaborating{" "}
             <br />{" "}
             <span
               className="text-slate-500"
@@ -556,15 +559,15 @@ const Code = () => {
             >
               11{" "}
             </span>
-            as a UI Lead for 2 years. Conducting workshops on UI UX development
-            and <br />{" "}
+            with other techies and conducting workshops on UI UX development
+            <br />{" "}
             <span
               className="text-slate-500"
               style={{ letterSpacing: "0.2rem" }}
             >
               11{" "}
             </span>{" "}
-            related challenges. <br />{" "}
+            and automation. <br />{" "}
           </p>
           <p
             className="text-sm text-justify text-yellow-200"
